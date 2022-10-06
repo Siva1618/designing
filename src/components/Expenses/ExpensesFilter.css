@@ -1,0 +1,7 @@
+.expenses-filter__control{
+    width: 810px;
+    box-shadow: 10px;
+    border: 1px solid #2a2e2a;
+    padding: 10px;
+    margin: 10px auto;
+}

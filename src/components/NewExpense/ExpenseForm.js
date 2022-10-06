@@ -36,7 +36,7 @@ const ExpenseForm = (props) => {
     //   });
 };
 const submitHandler = (event) =>{
-    console.log('ulla potha')
+    console.log('sivakumar')
     event.preventDefault();
 
     const expenseData={

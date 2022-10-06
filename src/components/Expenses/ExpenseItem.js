@@ -8,12 +8,13 @@ const ExpenseItem = (props) => {
   console.log('expense item evaluated by them');
   /*let title = props.title;*/
   const clickHandler = ()=>{
-    setTitle ('Updated');
+    setTitle('Updated');
     /*title = 'updated';*/
     console.log(title);
   };
     
   return (
+    <li>
     <Card className="expense-item">
        <ExpenseDate date={props.date} />
       <div className="expense-item__description">
@@ -22,6 +23,7 @@ const ExpenseItem = (props) => {
       </div>
       <button onClick={clickHandler}>Change Title</button>
     </Card>
+    </li>
   );
 };
 
